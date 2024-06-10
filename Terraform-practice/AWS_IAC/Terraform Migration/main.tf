@@ -4,6 +4,10 @@ provider "aws"{
 
 
 ### IMPORTANT FOR MIGRATION FROM AWS OR ANYWHERE TO TERRAFORM##
+
+#EXAMPLE##
+
+
 import{
     id=""  ### NAME OF AMI OR ID WRT THIS SCENARIO
     to= aws_instance.example   ### ANY RESOURCE AND NAME OF RESOURCE ###
